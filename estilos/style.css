@@ -37,6 +37,9 @@ section#login {
     height: 700px;
     border-radius: 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+
+    transition: width 0.4s, height 0.4s; /* cria animacao suave quando o tamanho muda */
+    transition-timing-function: ease; /* suaviza a animacao */
 }
 
 section#login > div#imagem {
