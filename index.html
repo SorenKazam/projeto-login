@@ -6,6 +6,7 @@
     <title>Tela de login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <main>
@@ -14,10 +15,22 @@
             </div>
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Damos-lhe as boas-vindas! atualizado</p>
-                <form action="#" method="post">
-                    <label for="iemail">Email</label>
-                    <input type="email" name="email" id="iemail">
+                <p>Damos-lhe as boas-vindas!</p>
+                <form action="#" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-symbols-rounded">mail</span>
+                        <input type="email" name="email" id="iemail" required placeholder="Seu email" minlength="5" maxlength="200" autocomplete="email">
+                        <label for="iemail">Email: </label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-rounded">key</span>
+                        <input type="password" name="senha" id="isenha" required minlength="5" maxlength="200" autocomplete="current-password" placeholder="Sua password">
+                        <label for="isenha">Password: </label>
+                    </div>
+                    <div class="butoes">
+                        <input type="submit" value="Entrar">
+                        <a href="#"><span class="material-symbols-rounded">help</span>Esqueci a senha.</a>
+                    </div>
                 </form>
             </div>
         </section>

@@ -37,6 +37,9 @@
         float: right;
         width: 50%;
         height: 100vh;
+        background-position: bottom right;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     section#login > div#formulario {
