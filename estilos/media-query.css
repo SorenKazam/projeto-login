@@ -9,6 +9,8 @@
 
     section#login {
         width: 85vw;
+        border-radius: 50px;
+        overflow: hidden;
     }
 
     section#login > div#imagem {
@@ -20,6 +22,11 @@
     section#login > div#formulario {
         float: right;
         width: 70%;
+        margin-top: 100px
+    }
+
+    .campo > input {
+        width: 300px;
     }
 }
 
@@ -31,6 +38,9 @@
 
     section#login {
         width: 980px;
+        height: 85vh;
+        border-radius: 50px;
+        overflow: hidden;
     }
 
     section#login > div#imagem {
@@ -45,5 +55,10 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
+        margin-top: 100px;
+    }
+
+    .campo > input {
+        width: 350px;
     }
 }
