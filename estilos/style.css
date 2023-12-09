@@ -30,21 +30,22 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
     overflow: hidden;
-    background-position: right bottom;
+    
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 50px;
-    margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
 }
 
 section#login > div#imagem {
+    display: block;
     background: url(../imagens/pexels-vlad-alexandru-popa-1402790.jpg) no-repeat;
+    background-position: center top;
     background-size: cover;
     height: 200px;
-    display: block;
 }
 
 section#login > div#formulario {
