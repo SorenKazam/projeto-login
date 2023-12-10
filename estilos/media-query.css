@@ -22,7 +22,7 @@
     section#login > div#formulario {
         float: right;
         width: 70%;
-        margin-top: 100px
+        margin-top: calc(220px/2);
     }
 
     .campo > input {
@@ -37,8 +37,9 @@
     }
 
     section#login {
-        width: 980px;
-        height: 85vh;
+        width: 80vw;
+        max-width: 1900px;
+        height: 650px;
         border-radius: 50px;
         overflow: hidden;
     }
@@ -55,10 +56,27 @@
     section#login > div#formulario {
         float: left;
         width: 50%;
-        margin-top: 100px;
+        margin-top: calc(320px/2);
+    }
+
+    .campo {
+        margin-bottom: 40px;
     }
 
     .campo > input {
         width: 350px;
+    }
+
+    .btnPrimary {
+        display: inline;
+        transition: 0.5s;
+        width: 155px;
+        margin-right: 10px;
+    }
+
+    form > div.butoes > a {
+        display: inline;
+        width: 240px;
+        transition: 0.5s;
     }
 }
