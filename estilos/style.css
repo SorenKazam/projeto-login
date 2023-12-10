@@ -52,6 +52,7 @@ section#login > div#imagem {
     background-size: cover;
     background-attachment: fixed;
     height: 200px;
+    width: 100vw;
 }
 
 section#login > div#formulario {
